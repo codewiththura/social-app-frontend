@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { usePosts } from "../context/PostContext";
-import { authFetch } from "../services/api";
+import { API_URL, authFetch } from "../services/api";
 
 export default function CreatePost() {
   const [post, setPost] = useState({

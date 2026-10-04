@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { authFetch } from "../services/api";
+import { API_URL, authFetch } from "../services/api";
 
 const PostContext = createContext(null);
 

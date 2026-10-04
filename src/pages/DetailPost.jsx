@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import PostCard from "../components/PostCard";
 import { useEffect, useState } from "react";
 import CommentSession from "../components/CommentSession";
-import { authFetch } from "../services/api";
+import { API_URL, authFetch } from "../services/api";
 
 export default function DetailPost() {
   const [post, setPost] = useState(null);

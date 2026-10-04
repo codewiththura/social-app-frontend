@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import PostCard from "../components/PostCard";
-import { authFetch } from "../services/api";
+import { API_URL, authFetch } from "../services/api";
 
 export function SavedPosts() {
   const [posts, setPosts] = useState([]);

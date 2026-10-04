@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
-import { authFetch } from "../services/api";
+import { API_URL, authFetch } from "../services/api";
 
 const CommentSession = ({ postId }) => {
   const { isAuthenticated } = useAuth();
